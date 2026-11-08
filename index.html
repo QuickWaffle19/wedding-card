@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e9eee5">
+  <meta name="description" content="Jemputan perkahwinan Ridhwan & Fatin. You are invited to celebrate our wedding.">
+  <title>Jemputan Perkahwinan | Ridhwan & Fatin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Ridhwan dan Fatin">R <span>♥</span> F</a>
+    <div class="topbar-actions">
+      <button id="languageToggle" class="pill-button" type="button" aria-label="Switch language">EN</button>
+      <button id="musicToggle" class="pill-button music-button" type="button" aria-pressed="false">
+        <span class="music-icon" aria-hidden="true">♫</span>
+        <span id="musicLabel">Muzik: ON</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Opening envelope -->
+    <section id="intro" class="intro" aria-labelledby="introTitle">
+      <div class="intro-copy">
+        <p class="eyebrow" data-ms="JEMPUTAN ISTIMEWA" data-en="A SPECIAL INVITATION">JEMPUTAN ISTIMEWA</p>
+        <h1 id="introTitle" data-ms="Satu jemputan,<br>satu permulaan." data-en="An invitation,<br>a beautiful beginning.">Satu jemputan,<br>satu permulaan.</h1>
+        <p class="intro-subtitle" data-ms="Kami menjemput anda meraikan hari bahagia kami." data-en="We invite you to celebrate our special day.">Kami menjemput anda meraikan hari bahagia kami.</p>
+      </div>
+
+      <div class="envelope-wrap">
+        <div class="envelope" id="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter">
+            <span class="letter-small" data-ms="JEMPUTAN PERKAHWINAN" data-en="WEDDING INVITATION">JEMPUTAN PERKAHWINAN</span>
+            <span class="letter-names">Ridhwan <i>&</i> Fatin</span>
+            <span class="letter-date">06 · 12 · 2026</span>
+          </div>
+          <div class="envelope-front-left"></div>
+          <div class="envelope-front-right"></div>
+          <div class="envelope-front-bottom"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal" aria-hidden="true">R<span>♥</span>F</div>
+        </div>
+        <p class="tap-hint" data-ms="Tekan sampul untuk membuka jemputan" data-en="Tap the envelope to open your invitation">Tekan sampul untuk membuka jemputan</p>
+        <button id="openInvitation" class="primary-button" type="button">
+          <span data-ms="Buka Jemputan" data-en="Open Invitation">Buka Jemputan</span>
+          <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <div class="intro-bottom" data-ms="DENGAN PENUH KESYUKURAN" data-en="WITH GRATITUDE AND JOY">DENGAN PENUH KESYUKURAN</div>
+    </section>
+
+    <!-- Main invitation -->
+    <div id="invitation" class="invitation hidden" aria-hidden="true">
+      <section class="hero section-shell">
+        <div class="hero-ornament" aria-hidden="true">✳</div>
+        <p class="eyebrow" data-ms="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ" data-en="IN THE NAME OF ALLAH, THE MOST MERCIFUL">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+        <p class="walimatulurus-title" data-ms="Walimatulurus" data-en="Wedding Reception">Walimatulurus</p>
+        <p class="hero-intro" data-ms="Dengan penuh kesyukuran, kami" data-en="With grateful hearts, we">Dengan penuh kesyukuran, kami</p>
+        <div class="hosts-block">
+          <p class="host-name">Daud Bin Othman</p>
+          <span class="host-connector" data-ms="dan" data-en="and">dan</span>
+          <p class="host-name">Mariani Binti Atan</p>
+        </div>
+        <p class="hero-invite" data-ms="dengan segala hormatnya mempersilakan Tuan / Puan / Encik / Cik serta keluarga ke majlis perkahwinan puteri kami" data-en="cordially invite you and your family to the wedding celebration of their daughter">dengan segala hormatnya mempersilakan Tuan / Puan / Encik / Cik serta keluarga ke majlis perkahwinan puteri kami</p>
+        <h2 class="couple-names">Fatin <span>&</span><br>Ridhwan</h2>
+        <p class="hero-invite" data-ms="Semoga kehadiran dan doa restu anda menyerikan lagi majlis kami." data-en="Your presence and blessings would make our celebration even more special.">Semoga kehadiran dan doa restu anda menyerikan lagi majlis kami.</p>
+        <div class="floral-divider" aria-hidden="true"><span></span> ❀ <span></span></div>
+        <p class="hero-date">AHAD · SUNDAY</p>
+        <p class="hero-date-number">06.12.2026</p>
+        <p class="hero-time" data-ms="1.00 petang – 6.00 petang" data-en="1:00 PM – 6:00 PM">1.00 petang – 6.00 petang</p>
+        <a class="text-link" href="#details" data-ms="LIHAT BUTIRAN ↓" data-en="VIEW DETAILS ↓">LIHAT BUTIRAN ↓</a>
+      </section>
+
+      <section class="countdown-section section-shell">
+        <p class="eyebrow" data-ms="MENUJU HARI BAHAGIA" data-en="COUNTING DOWN TO OUR DAY">MENUJU HARI BAHAGIA</p>
+        <div class="countdown" aria-label="Countdown">
+          <div class="count-box"><strong id="days">000</strong><span data-ms="Hari" data-en="Days">Hari</span></div>
+          <div class="count-box"><strong id="hours">00</strong><span data-ms="Jam" data-en="Hours">Jam</span></div>
+          <div class="count-box"><strong id="minutes">00</strong><span data-ms="Minit" data-en="Minutes">Minit</span></div>
+          <div class="count-box"><strong id="seconds">00</strong><span data-ms="Saat" data-en="Seconds">Saat</span></div>
+        </div>
+      </section>
+
+      <section id="details" class="details-section section-shell">
+        <div class="section-heading">
+          <p class="eyebrow" data-ms="SIMPAN TARIKH INI" data-en="SAVE THE DATE">SIMPAN TARIKH INI</p>
+          <h2 data-ms="Butiran Majlis" data-en="Event Details">Butiran Majlis</h2>
+          <p data-ms="Kehadiran anda amat bermakna buat kami." data-en="Your presence would mean the world to us.">Kehadiran anda amat bermakna buat kami.</p>
+        </div>
+        <div class="detail-grid">
+          <article class="detail-card">
+            <div class="detail-icon" aria-hidden="true">✿</div>
+            <h3 data-ms="Tarikh & Masa" data-en="Date & Time">Tarikh & Masa</h3>
+            <p>Ahad, 06 Disember 2026</p>
+            <p data-ms="Akad Nikah: 2.00 petang" data-en="Nikah Ceremony: 2:00 PM">
+              Akad Nikah: 2.00 petang
+            </p>
+            <p>1.00 petang – 6.00 petang</p>
+            <p class="muted">Sunday, 06 December 2026 · 1 PM – 6 PM</p>
+          </article>
+          <article class="detail-card">
+            <div class="detail-icon" aria-hidden="true">⌖</div>
+            <h3 data-ms="Lokasi" data-en="Venue">Lokasi</h3>
+            <p>Kuasa Kaseh Event Hall (Kota Puteri)</p>
+            <p>1, Jalan Kota 2/4, Kawasan Perindustrian Kota Puteri, 81750 Masai, Johor.</p>
+            <a id="mapsLink" class="outline-button" href="#" target="_blank" rel="noopener noreferrer">
+              <span data-ms="Buka Google Maps" data-en="Open Google Maps">Buka Google Maps</span> ↗
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="rsvp-section section-shell">
+        <div class="rsvp-card">
+          <p class="eyebrow" data-ms="MOHON PENGESAHAN KEHADIRAN" data-en="KINDLY RSVP">MOHON PENGESAHAN KEHADIRAN</p>
+          <h2 data-ms="Dapat bersama anda ialah hadiah terindah." data-en="Having you with us is the greatest gift.">Dapat bersama anda ialah hadiah terindah.</h2>
+          <p data-ms="Sila maklumkan kehadiran anda melalui borang RSVP." data-en="Please let us know if you can attend using our RSVP form.">Sila maklumkan kehadiran anda melalui borang RSVP.</p>
+          <a id="rsvpLink" class="primary-button" href="https://docs.google.com/forms/d/e/1FAIpQLScSLkcvvFaE8dlWJIcGSt55h_9xpBLmlVy6pHbOWfQF15oG0Q/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+            <span data-ms="Sahkan Kehadiran" data-en="Confirm Attendance">Sahkan Kehadiran</span> <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="closing-section section-shell">
+        <div class="floral-divider" aria-hidden="true"><span></span> ❀ <span></span></div>
+        <p data-ms="Terima kasih atas doa dan ingatan anda." data-en="Thank you for your prayers and kind wishes.">Terima kasih atas doa dan ingatan anda.</p>
+        <h2>Ridhwan <span>&</span> Fatin</h2>
+        <p class="closing-date">06 · 12 · 2026</p>
+        <button id="shareButton" class="outline-button" type="button">
+          <span data-ms="Kongsi Jemputan" data-en="Share Invitation">Kongsi Jemputan</span> ↗
+        </button>
+      </section>
+
+      <footer class="footer">
+        <span>Made with ♡</span>
+        <span data-ms="Jemputan digital" data-en="Digital wedding invitation">Jemputan digital</span>
+      </footer>
+    </div>
+  </main>
+
+  <!-- Optional background music. Add your own licensed audio file at assets/music.mp3. -->
+  <audio id="backgroundMusic" src="assets/music.mp3" loop preload="auto"></audio>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
